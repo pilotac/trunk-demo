@@ -5,7 +5,7 @@
   "description": "Tiny demo app",
   "main": "src/index.js",
   "scripts": {
-    "test": "node --test test/",
+    "test": "node --test",
     "start": "node src/index.js"
   },
   "license": "MIT"
