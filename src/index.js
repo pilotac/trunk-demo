@@ -5,6 +5,7 @@ function greet(name, opts = {}) {
 module.exports = { greet };
 if (require.main === module) console.log(greet('world'));
 function farewell(name) {
+  if (!name) return 'Goodbye!';
   return `Goodbye, ${name}!`;
 }
 module.exports.farewell = farewell;
